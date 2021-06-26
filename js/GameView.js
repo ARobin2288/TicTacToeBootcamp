@@ -27,10 +27,11 @@ export default class GameView {
         
         let classType = game.board[i] == "X" ? "tile-x" : "tile-o";
         tile.innerHTML = `<span class="${classType}">${game.board[i] ? game.board[i] : ""}</span>`;
-  
+        
         if (winningCombination && winningCombination.includes(i)) {
             
           tile.classList.add("board__tile--winner");
+          
         }
       }
     }

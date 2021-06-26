@@ -1,4 +1,3 @@
-
 import Game from "./Game.js";
 import GameView from "./GameView.js"
 

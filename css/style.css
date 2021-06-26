@@ -11,13 +11,23 @@ body {
 }
 
 .title {
-  width: 600px;
+  margin-bottom: 50px;
+  width: 575px;
   text-align: center;
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(246, 246, 246, 1) 16%,
+    rgba(237, 237, 237, 1) 37%,
+    rgba(237, 237, 237, 1) 65%,
+    rgba(237, 237, 237, 0.2) 99%
+  );
 }
 
 h1 {
   font-weight: bold;
-  font-size: 88px;
+  font-size: 75px;
   color: #150e56;
 }
 
@@ -83,6 +93,11 @@ p {
   flex-direction: column;
   width: 500px;
   height: 500px;
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(253, 253, 252, 0.65) 0%,
+    rgba(255, 255, 255, 0.65) 100%
+  );
 }
 
 .header {
@@ -147,13 +162,11 @@ span {
 }
 
 .board__tile {
-  background: white;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 80px;
-  background-color: transparent;
 }
 
 .tile-x {
