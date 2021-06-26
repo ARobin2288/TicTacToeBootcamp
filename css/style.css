@@ -19,6 +19,7 @@ body {
     rgba(253, 253, 252, 0.65) 0%,
     rgba(255, 255, 255, 0.65) 100%
   );
+  padding-top: 30px;
 }
 
 h1 {
@@ -192,4 +193,15 @@ span {
   .left {
     margin-bottom: 50px;
   }
+}
+
+footer {
+  padding-left: 22px;
+  color: #110b44;
+  font-size: 17px;
+}
+
+footer a {
+  color: #110b44;
+  cursor: pointer;
 }
