@@ -32,7 +32,7 @@ export default class Game {
             this.nextTurn();
         } else {
             this.winner = winningCombination[0]
-            alert("Congratulations! 🎉")
+            alert("Congratulations, you've won! 🎉")
         }
         
     }
