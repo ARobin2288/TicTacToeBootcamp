@@ -194,14 +194,3 @@ span {
     margin-bottom: 50px;
   }
 }
-
-footer {
-  padding-left: 22px;
-  color: #110b44;
-  font-size: 17px;
-}
-
-footer a {
-  color: #110b44;
-  cursor: pointer;
-}
